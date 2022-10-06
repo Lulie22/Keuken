@@ -18,21 +18,5 @@ public class ArtikelController {
     public ArtikelController(ArtikelService artikelService) {
         this.artikelService = artikelService;
     }
-    //@GetMapping
-//    List<Artikel> findAll(){
-//        return artikelService.findAll();
-//    }
-//    @GetMapping("{id}")
-//    Artikel findById(@PathVariable long id){
-//        return artikelService.findById(id)
-//                        .orElseThrow(ArtikelNietGevondenException::new);
-//    }
-//    @GetMapping("aantal")
-//    long findAantal() {
-//        return artikelService.findAantal();
-//    }
-//    @GetMapping("{id}")
-//    boolean existsById(@PathVariable long id){
-//        return artikelService.existsById(id);
-//    }
+
 }
